@@ -12,6 +12,8 @@
 * 0624047 蔡昕晏
 * 0624099 林彥葶
 
-
-
 ###### `My First Assignment`
+
+[高科大](https://www.nkust.edu.tw/)
+
+<https://www.nkust.edu.tw/>
