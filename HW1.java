@@ -20,7 +20,7 @@ abstract class CShape
   public void show()
   {
   System.out.print("color="+color+", ");
-  System.out.print("area="+0.5*a*b);
+  System.out.print("area="+0.5*al*bl);
   }
  }
  
