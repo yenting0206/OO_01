@@ -3,41 +3,38 @@ interface Shape
   abstract void getArea(double dou);
 }
 
-  class Rectangle implements Shape
+class Rectangle implements Shape
+ {
+  double length;
+  double width;
+
+ public Rectangle (double l , double w)
   {
-    double length;
-    double width;
-   
-   public Rectangle (double l , double w)
-    {
-      length = l;
-      width = w;
-    }
-    
-   public void getArea(String str)
-   {
-      system.out.println("area="+length*width);
-   }
-   
+    length = l;
+    width = w;
   }
-  
-  
-  class Triangle implements Shape
+
+ public double getArea()
+ {
+    system.out.println("area="+length*width);
+ }
+
+class Triangle implements Shape
+{
+  double base;
+  double height;
+
+  public Triangle (double b , double h)
   {
-    double base;
-    double height;
-    
-    public Triangle (double b , double h)
-    {
-      base=b;
-      height=h;
-    }
-    
-    public void getArea(String str)
-    {
-      system.out.println("area="+base*height/2);
-    }
+    base=b;
+    height=h;
   }
+
+  public double getArea()
+  {
+    system.out.println("area="+base*height/2);
+  }
+}
   
   
 }
